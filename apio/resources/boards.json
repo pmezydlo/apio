@@ -118,5 +118,13 @@
       "vid": "1209",
       "pid": "2100"
     }
+  },
+  "BeagleWire": {
+    "name": "BeagleWire",
+    "fpga": "iCE40-HX4K-TQ144",
+    "programmer": {
+      "type": "bw-prog"
+    },
+    "platform": "linux_armv7l"
   }
 }

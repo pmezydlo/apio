@@ -21,5 +21,9 @@
     "command": "tinyfpgab",
     "args": "-c ${SERIAL_PORT} --program",
     "pip_packages": [ "tinyfpgab" ]
+  },
+  "bw-prog": {
+    "command": "dd",
+    "args": "of=/dev/spidev1.0 if="
   }
 }
